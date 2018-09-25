@@ -51,3 +51,22 @@ variable "spot_price" {
   description = "The maximum hourly price to pay for EC2 Spot Instances."
   default     = ""
 }
+
+################################
+# PLM Variables
+################################
+
+variable "aws_region" {}
+variable "profile" {}
+variable "key_name" {}
+variable "key_path" {}
+variable "remote_bucket" {}
+variable "remote_aws_region" {}
+variable "remote_app_key" {}
+variable "remote_platform_key" {}
+variable "remote_bootstrap_key" {}
+variable "global_remote_bucket" {}
+variable "global_remote_global_key" {}
+variable "global_remote_aws_region" {}
+variable "environment" {}
+variable "domain" {}
